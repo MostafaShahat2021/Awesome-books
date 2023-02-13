@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid black;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-title,
+.author-name {
+  margin: 1rem;
+}
+
+hr {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.new-book {
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.new-book input {
+  margin: 0.5rem;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.add-book form {
+  margin: 15px;
+}
+
+.book-ul {
+  list-style: none;
+}
